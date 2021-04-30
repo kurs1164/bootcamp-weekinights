@@ -1,0 +1,35 @@
+/* <!-- Color name uses the names of the color --> */
+
+.color-name{
+    color: tomato;
+}
+
+/* rgb (red-value, green-value, blue-value)
+all the value should be up to 255 Only */
+
+.rgb{
+    color: rgb(123, 36, 167);
+}
+
+/* opacity the transparency(透明化) of the element  */
+/* opacity can only be from o to 1 */
+.opacity{
+    opacity:0.3 ;
+}
+
+/* rgba (red-value, green-value, bulue-value, alpha-value) */
+/* alpha-value is the opacity of the color */
+
+.rgba{
+    color: rgba(226, 7, 255, 0.6);
+}
+
+/* hexcode #rrggbb */
+.hexcode{
+    color: #216103;
+}
+
+.background-color{
+    color: white;
+    background-color: goldenrod;
+}

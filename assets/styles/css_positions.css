@@ -1,0 +1,69 @@
+/* 
+    static: default 
+            code and browser- some order
+
+    relative: to original position
+     -if the positios change by padding or margin and so on, other element will move
+
+     absolute: relative to parent
+     -parent should not be static
+
+     fixed : relative to the viewpoint
+
+     z-index 
+     -order of elements
+     -the hightest z-index is at the front
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: darkgoldenrod;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.announcement{
+    background-color: darkseagreen;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.announcement h2{
+    font-size: 60px;
+    position: absolute;
+    /* if relative and absolute is linked, the positions is in division */
+    top: 40%;
+    left:10%
+}
+
+
+.announcement h2:hover{
+    color: white;
+}
+
+.main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  
+}
+
+.main p {
+    font-size: 2em;
+    /* root font size - 1em 16px */
+    margin-bottom: 25px;
+}
+
+.main input:focus{
+    border: 5px solid red;
+}

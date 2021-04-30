@@ -1,0 +1,98 @@
+*{
+    /* box-sizing */
+    box-sizing: border-box;
+    /* content-box = includes padding and border on the total width/height of the element 
+
+        border-box= locks the height/width of the element and border and patting does not affect the total height
+
+
+    */
+}
+
+/* margin values usually 4 values 
+    1-value margin= applies the value to all the sides
+    margin: value;
+    margin: 10px;
+
+    2-value margin = 
+    margin : top and bottom value left and right value
+    margin : 10px 20px
+
+
+    3-value margin =
+    margin: top-value left-and right-value bottom-value;
+    marigin :10px 20px 30px
+    
+    4-value marigin =
+    margin: top-value right-value bottom-value left-value;
+    margin: 10px 20px 30px 40px
+
+
+    specific position properties:
+    margin-top: value;
+    margin-right: value;
+    margin-bottom: value;
+    margin-left: value; 
+
+*/
+
+div{
+    height: 200px;
+    width: 200px;
+}
+
+p{
+    color: white;
+}
+
+.div1{
+    background-color: teal;
+    margin: 50px;
+}
+
+/* padding values usually 4 values 
+    1-value padding= applies the value to all the sides
+    padding: value;
+    padding: 10px;
+
+    2-value padding = 
+    padding : top and bottom value left and right value
+    padding : 10px 20px
+
+
+    3-value padding =
+    padding: top-value left-and right-value bottom-value;
+    padding :10px 20px 30px
+    
+    4-value marigin =
+    padding: top-value right-value bottom-value left-value;
+    padding: 10px 20px 30px 40px
+
+    specific position properties:
+    padding-top: value;
+    padding-right: value;
+    padding-bottom: value;
+    padding-left: value; 
+
+*/
+
+.div2{
+    background-color: goldenrod;
+    padding: 50px;
+}
+
+.div3{
+    background-color: gray;
+    overflow: scroll;
+}
+
+.overflow{
+    color: black;
+}
+
+/* overflow property has 2 values : hiddem or scroll
+    hidden: usually used for images
+    scroll: adds scroll bar to be convenient for looking
+    
+    overflow usually is inside division
+*/

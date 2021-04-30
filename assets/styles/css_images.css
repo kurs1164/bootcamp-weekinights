@@ -1,0 +1,32 @@
+div{
+    height: 670px;
+    width: 100%;
+}
+/* if classes is same program, we can use the whole element */
+
+/* ../ means to go back beforefand file */
+.div1{
+    background-image: url(../images/kabehs77.jpg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/* backgrand image needs height and width */
+/* background-repeat need to decide how many images */
+/* background-size can use px or % */
+/* background-size is always that first value is width. second is height */
+
+
+/* background-attachmet has two values : fixed or scroll */
+
+.div2{
+    background-image: url(../images/rin-13.2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+}
+
+

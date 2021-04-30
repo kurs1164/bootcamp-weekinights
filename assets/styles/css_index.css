@@ -1,0 +1,31 @@
+/* float  has 3 values*/
+
+/* float: none */
+/* float: left */
+/* float: right */
+
+.p1{
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    background-color: tomato;
+}
+/*  
+    if one element is floating, other elements occupied original space 
+    that's why other element is moving somewhere
+*/
+
+.p2{
+    width: 32%;
+    float: left;
+    background-color: aqua;
+    margin-right: 2%;
+}
+
+.p3{
+    width: 32%;
+    float: left;
+    background-color: yellowgreen;
+}
+
+

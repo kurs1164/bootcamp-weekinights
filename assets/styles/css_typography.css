@@ -1,0 +1,90 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fontsize{
+    /* font-size is to change the size of the text */
+    /* font-size can use % or px */
+    font-size: 200%;
+}
+
+.font-weight{
+    /* font-weight is to change the thickness of the text */
+    /* font-weight can use '100' to '900' or 'bold' values */
+    font-weight:800;
+}
+
+
+.font-style{
+    /* font style is to change the style of the text */
+    /* font style has 3 option: normal, italic, oblique */
+    font-style: italic;
+}
+
+
+/* text transform has 3 values: uppercase, lowercase, capitalize  */
+
+.uppercase{
+    /* uppercase will transform all text to big letters  */
+    text-transform: uppercase;
+}
+
+.lowercase{
+    /* lowercase will transform all text to small letters */
+    text-transform: lowercase;
+}
+
+.capitalize{
+    /* capitalize will transform all first letters in each word into big letters */
+    text-transform: capitalize;
+}
+
+/* text decoration has 4 values: none, underline, overline, line-through */
+
+.none{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+
+/* text align has 3 values: left, center, right */
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    
+    text-align: right;
+}
+
+*{
+    text-align: center;
+}
+
+/* letter spacing adds spacing in between the letters  */
+
+.letter-spacing{
+    letter-spacing: 10px;
+}
+
+
+/* word spacing adds spacing in between teh words */
+.word-spacing{
+    word-spacing: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="">
+        <h2>Registration Form</h2>
+        <label for="Firstname">First Name:</label>
+        <input type="text" name="Firstname" id="Firstname">
+        <!-- text means letters, numbers,character-->
+        <br>
+        <br>
+        <label for="Lastname">Last Name:</label>
+        <input type="text" name="Lastname" id="Lastname">
+        <!-- when you name the code, you shoud not make any space-->
+
+        <div>
+            <p>Gender:</p>
+        
+            <!-- when we choose some choise, it needs value-->
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <!-- name usually uses to find what data is linked to control name-->
+            <!-- id usually uses to make system remember the program-->
+            <input type="radio" name="gender" id="Nothing" value="Nothing">
+            <label for="Nothing">I would not answer</label>
+
+        </div>
+        <br>
+
+
+        <div>
+            <label for="Email">Email Address</label>
+            <!-- placeholder create the domein code-->
+            <input type="email" name="Email" id="Email" placeholder="@mail.com">
+        </div>
+        <br>
+        <div>
+            <label for="Phone">Phone Number</label>
+            <!-- if input type is number, user can use only number-->
+            <input type="number" name="Phone" id="Phone">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="url">Web site</label>
+            <input type="url" name="url" id="url" placeholder="https://www.yourdomein.com">
+        </div>
+
+        <div>
+            <p>which courses do you have attentions? (Please check as many as you like)</p>
+            <br>
+            <input type="checkbox" name="course" id="bas" value="Basic">
+            <!-- label for="" / insert the id -->
+            <label for="bas">Basic course</label>
+
+            <input type="checkbox" name="course" id="des" value="Design">
+            <label for="des">Design course</label>
+
+            <input type="checkbox" name="course" id="dev" value="Develop">
+            <label for="dev">Develop course</label>
+        </div>
+
+        <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
